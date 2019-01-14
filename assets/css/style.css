@@ -2,20 +2,48 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #777777;
+    line-height: 150%;
+}
+
+#page_wrap {
+    width: 960px;
+    margin: 0 auto;
 }
 
 header {
     background-color: #4aaaa5;
+    border-color: #cccccc;
+    float: left;
+    width: 320px;
 }
 
 h1 {
     color: #ffffff;
 }
 
+#navmenu {
+    float: right;
+    width: 640px;
+}
+
 h2 {
     color: #4aaaa5;
 }
 
+#bio_image {
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.main_content {
+    clear: both;
+    width: 960px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+}
+
 #footer {
     background-color: #666666;
+    border-top: #4aaaa5 solid 5px
 }
