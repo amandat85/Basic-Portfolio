@@ -29,7 +29,7 @@ hr {
     border: 5px 5px 5px 5px;
 }
 
-#page_wrap {
+.page_wrap {
     width: 960px;
     margin: 0 auto;
 }
@@ -46,7 +46,6 @@ header {
     background-color: #4aaaa5;
     border-color: #cccccc;
     float: left;
-    margin: 0px 0px 50px 0px;
     padding: 10px 20px 10px 20px;
 }
 #navmenu {
@@ -56,6 +55,7 @@ header {
 
 .container {
     flex: 1 0 auto;
+    background-image: url("../../assets/images/gravel.png");
 }
 .main_content {
     clear: both;
@@ -64,7 +64,8 @@ header {
     border-style: solid;
     border-width: 1px;
     padding: 20px 40px 20px 30px;
-    margin-bottom: 20px;
+    margin: 30px 0 30px 0;
+    background-color: #ffffff;
 }
 
 #footer {
