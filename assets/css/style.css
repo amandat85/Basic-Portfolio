@@ -24,8 +24,22 @@ h2 {
     padding-bottom: 20px;
 }
 
+h3 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: absolute;
+    display: inline-block;
+}
+
 h1, h2 {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.overtop {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolution;
+    z-index: 10;
 }
 .nav:link {
     color: #777777;
@@ -91,6 +105,7 @@ header {
 .hangman {
     display: block;
     float: left;
+    position: relative;
 }
 
 .rpg {
