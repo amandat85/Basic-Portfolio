@@ -19,20 +19,20 @@ h2 {
     color: #4aaaa5;
     font-size: 34px;
     border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     border-bottom-color: #777777;
     padding-bottom: 20px;
 }
 
-h3 {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    position: absolute;
-    display: inline-block;
-}
-
 h1, h2 {
     font-family: 'Times New Roman', Times, serif;
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 60px;
+    padding: 5px 20px 5px 20px;
 }
 
 .overtop {
@@ -49,11 +49,11 @@ h1, h2 {
     color: #4aaaa5;
 }
 
-nav:hover {
+.nav:hover {
     color: #4aaaa5;
 }
 
-nav:active {
+.nav:active {
     color: #4aaaa5;
 }
 
@@ -94,6 +94,33 @@ header {
     padding: 20px 40px 20px 30px;
     margin: 30px 0 30px 0;
     background-color: #ffffff;
+}
+
+#name {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#777777;
+    margin-top: -15px;
+    padding-left: 10px;
+}
+
+#email {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#777777;
+    margin-top: -15px;
+    padding-left: 10px;
+}
+
+#message {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#777777;
+    margin-top: -15px;
+    padding-left: 10px;
+    min-height: 300px;
+    width: auto;
+    overflow: auto;
 }
 
 .port_image {
