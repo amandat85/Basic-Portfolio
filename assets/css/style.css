@@ -82,23 +82,38 @@ header {
     background-color: #ffffff;
 }
 
-#hangman {
-    
+.port_image {
+    height: 200px;
+    width: 250px;
+    margin: 0px 30px 50px 0px;
 }
 
-#rpg {
-    
+.hangman {
+    display: block;
+    float: left;
 }
 
-#trivia {
-    
+.rpg {
+    display: block;
+    float: left;
 }
 
-#rutgers {
+.trivia {
+    display: block;
+    clear: both;
+    overflow: auto;
+    float: left;
 }
 
-#rock {
-    
+.rutgers {
+    display: block;
+    float: left;
+}
+
+.rock {
+    display: block;
+    clear: both;
+    overflow: auto;
 }
 
 #footer {
