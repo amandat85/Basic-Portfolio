@@ -18,15 +18,29 @@ h1 {
 h2 {
     color: #4aaaa5;
     font-size: 34px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #777777;
+    padding-bottom: 20px;
 }
 
 h1, h2 {
     font-family: 'Times New Roman', Times, serif;
 }
+.nav:link {
+    color: #777777;
+}
 
-hr {
-    border-color: #7e7d7d;
-    border: 5px 5px 5px 5px;
+.nav:visited {
+    color: #4aaaa5;
+}
+
+nav:hover {
+    color: #4aaaa5;
+}
+
+nav:active {
+    color: #4aaaa5;
 }
 
 .page_wrap {
@@ -36,7 +50,7 @@ hr {
 
 #bio_image {
     float: left;
-    margin: 15px 15px 0px 0px;
+    margin: 5px 15px 0px 0px;
     display: block;
 }
 
@@ -54,12 +68,12 @@ header {
 }
 
 .container {
+    clear: both;
+    overflow: auto;
     flex: 1 0 auto;
     background-image: url("../../assets/images/gravel.png");
 }
 .main_content {
-    clear: both;
-    overflow: auto;
     border-color: #dddddd;
     border-style: solid;
     border-width: 1px;
@@ -68,9 +82,28 @@ header {
     background-color: #ffffff;
 }
 
+#hangman {
+    
+}
+
+#rpg {
+    
+}
+
+#trivia {
+    
+}
+
+#rutgers {
+}
+
+#rock {
+    
+}
+
 #footer {
     background-color: #666666;
-    border-top: #4aaaa5 solid 5px;
+    border-top: #4aaaa5 solid 8px;
     text-align: center;
     flex-shrink: 0;
 }
