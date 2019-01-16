@@ -28,6 +28,68 @@ h1, h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+#text {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 220px;
+}
+
+#text2 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 220px;
+    left: 375px;
+}
+
+#text3 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 540px;
+}
+
+#text4 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 540px;
+    left: 375px;
+}
+
+#text5 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 865px;
+}
+
 #submit {
     color: #ffffff;
     background-color: #4aaaa5;
@@ -35,12 +97,6 @@ h1, h2 {
     padding: 5px 20px 5px 20px;
 }
 
-.overtop {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    position: absolution;
-    z-index: 10;
-}
 .nav:link {
     color: #777777;
 }
@@ -96,6 +152,45 @@ header {
     background-color: #ffffff;
 }
 
+.image-block {
+    height: 960px;
+    position: relative;
+}
+
+#image1 {
+    display: block;
+    position: absolute;
+    top: 5px;
+}
+
+#image2 {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 375px;
+}
+
+#image3 {
+    display: block;
+    position: absolute;
+    top: 325px;
+}
+
+#image4 {
+    display: block;
+    position: absolute;
+    top: 325px;
+    left: 375px;
+}
+
+#image5 {
+    display: block;
+    position: absolute;
+    top: 650px;
+}
+
+
+
 #name {
     border-style: solid;
     border-width: 1px;
@@ -120,41 +215,6 @@ header {
     padding-left: 10px;
     min-height: 300px;
     width: auto;
-    overflow: auto;
-}
-
-.port_image {
-    height: 200px;
-    width: 250px;
-    margin: 0px 30px 50px 0px;
-}
-
-.hangman {
-    display: block;
-    float: left;
-    position: relative;
-}
-
-.rpg {
-    display: block;
-    float: left;
-}
-
-.trivia {
-    display: block;
-    clear: both;
-    overflow: auto;
-    float: left;
-}
-
-.rutgers {
-    display: block;
-    float: left;
-}
-
-.rock {
-    display: block;
-    clear: both;
     overflow: auto;
 }
 
