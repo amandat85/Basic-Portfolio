@@ -28,6 +28,14 @@ h1, h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+#submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 60px;
+    padding: 5px 20px 5px 20px;
+}
+
 .page_wrap {
     width: 960px;
     margin: 0 auto;
@@ -43,24 +51,23 @@ header {
 
 .top_menu {
     float: right;
-    padding-top: 30px;
-    text-align: right;
-}
-
-.top_menu li {
+    padding-top: 50px;
     display: inline;
-    padding-right: 10px;
 }
 
-.top_menu a {
+.top_menu:link {
     color: #777777;
 }
 
-.tom_menu a:hover {
+.top_menu:visited {
     color: #4aaaa5;
 }
 
-.top_menu a:active {
+.tom_menu:hover {
+    color: #4aaaa5;
+}
+
+.top_menu:active {
     color: #4aaaa5;
 }
 
@@ -184,6 +191,7 @@ header {
     top: 865px;
 }
 
+
 #name {
     border-style: solid;
     border-width: 1px;
@@ -211,17 +219,9 @@ header {
     overflow: auto;
 }
 
-#submit {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    width: 60px;
-    padding: 5px 20px 5px 20px;
-}
-
-.footer {
+#footer {
     background-color: #666666;
     border-top: #4aaaa5 solid 8px;
     text-align: center;
     flex-shrink: 0;
-    color: #ffffff;
 }
