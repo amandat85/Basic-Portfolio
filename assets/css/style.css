@@ -39,17 +39,13 @@ header {
     border-color: #cccccc;
     float: left;
     padding: 10px 20px 10px 20px;
+    margin-top: -10px;
 }
 
 .top_menu {
     float: right;
     padding-top: 30px;
     text-align: right;
-}
-
-.top_menu li {
-    display: inline;
-    padding-right: 10px;
 }
 
 .top_menu a {
