@@ -48,11 +48,6 @@ header {
     text-align: right;
 }
 
-.top_menu li {
-    display: inline;
-    padding-right: 10px;
-}
-
 .top_menu a {
     color: #777777;
 }
