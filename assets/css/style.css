@@ -33,7 +33,7 @@ h1, h2 {
     margin: 0 auto;
 }
 
-.header {
+header {
     background-color: #4aaaa5;
     border-color: #cccccc;
     float: left;
@@ -44,7 +44,7 @@ h1, h2 {
 
 .top_menu {
     float: right;
-    padding-top: 25px;
+    margin-top: 25px;
     text-align: right; 
 }
 
