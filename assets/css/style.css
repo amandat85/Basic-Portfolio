@@ -20,7 +20,7 @@ h2 {
     font-size: 34px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: #777777;
+    border-bottom-color:  #cccccc;
     padding-bottom: 20px;
 }
 
@@ -33,38 +33,62 @@ h1, h2 {
     margin: 0 auto;
 }
 
-header {
-    overflow: auto;
+.header {
     background-color: #4aaaa5;
     border-color: #cccccc;
     float: left;
     padding: 10px 20px 10px 20px;
+    margin-left: 8px;
     margin-top: -10px;
 }
 
 .top_menu {
     float: right;
-    padding-top: 30px;
-    text-align: right;
+    padding-top: 25px;
+    text-align: right; 
+}
+
+.border {
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#no_border {
+    padding-left: 10px;
 }
 
 .top_menu a {
-    color: #777777;
+    color: #cccccc;
+    text-decoration-line: none;
 }
 
 .top_menu a:hover {
     color: #4aaaa5;
+    text-decoration-line: none;
 }
 
 .top_menu a:active {
-    color: #4aaaa5;
+    color: #4eeee5;
+    text-decoration-line: none;
 }
 
+a {
+    color: #4aaaa5;
+    text-decoration-line: none;
+}
 .container {
     clear: both;
     overflow: auto;
     flex: 1 0 auto;
     background-image: url("../../assets/images/vintage_speckles.png");
+    border-top-style: solid;
+    border-top-color:  #dddddd;
+    border-width: 2px;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 .main_content {
     border-color: #dddddd;
@@ -220,5 +244,5 @@ header {
     border-top: #4aaaa5 solid 8px;
     text-align: center;
     flex-shrink: 0;
-    color: #ffffff;
+    color: #cccccc;
 }
