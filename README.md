@@ -7,3 +7,6 @@ https://amandat85.github.io/Basic-Portfolio/
 ## Languages and Tools Used
 * HTML
 * CSS
+
+## Screen Capture
+![Basic Portfolio - About Page](basicportfolio.png)
