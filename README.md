@@ -5,8 +5,8 @@ Basic Portfolio is the first assignment for the Full Stack Development course. I
 https://amandat85.github.io/Basic-Portfolio/
 
 ## Languages and Tools Used
-* HTML
-* CSS
+* HTML 5
+* CSS 3
 
 ## Screen Capture
 ![Basic Portfolio - About Page](basicportfolio.png)
